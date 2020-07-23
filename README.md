@@ -3,7 +3,7 @@ ShowPo is a fast-moving midsize fashion eCommerce company which has been replatf
 
 This piece is not a complete set of the tests that would be included in their regression test suite. I don’t cover all negative test cases, and I have only included customer-facing functions. However, I hope to provide a good cross-section which demonstrates to you how I think as a tester. While automated tests don’t test everything, the aim of a good regression test suite is to give confidence that the program works as it should.
 
-## Introduction
+# Introduction
 
 I’ve been following ShowPo since 2011. Showpo is a local Sydney company which has grown to become one of Australia’s leading fashion companies and eCommerce properties. To me, they look like the perfect case study to use as an example of how I can apply my software testing skills to any eCommerce product. I used recent articles and BuiltWith to gain an understanding of their technology stack, and help me decide which tools might be the most appropriate for them to use.  I am making the assumption that ShowPo uses the agile approach to software development, based on interviews given by the founder. In writing up this case study, I opted not to talk to anyone at ShowPo. It is based purely on my experience of their site and of eCommerce itself. In a previous life, I worked as an eCommerce coordinator where I first developed skills in user acceptance testing, exploratory testing, and ad-hoc testing. As part of my self-study for my testing career I am learning the other forms of testing and how to apply them. I do a general overview of some of them here. 
 
@@ -11,10 +11,10 @@ With this case study I aim to answer, ‘what would you test?’ and ‘how woul
 
 DISCLAIMER: This piece is not a complete set of the tests that would be included in their regression test suite. I don’t cover all negative tests, and I have only included customer-facing functions. However, I hope to provide a good cross-section which demonstrates to you how I think as a tester. 
 
-# Test Approach:
+# Test Approach
 Using my personal knowledge of the eCommerce domain, I aimed to write comprehensive functional test cases.
 
-My goal was to follow the 80/20 rule, with 80% of the test scenarios covering failure cases, and 20% covering success cases. I started with the happy path, then wrote negative tests. To find these cases first I explored boundary/range testing, and null testing. Many of my E2E tests would end up having multiple asserts which violates the Single Responsibility Principle. In these cases, elements of these tests are run as unit or integration tests. Of course, there are also edge cases, where a non-typical customer will enter data that should be accepted, but often isn’t. These assumptions about users, through testing mostly the happy path of user experience, can negatively impact UX, usability, and accessibility. As well as these edge cases, I also explored whether ShowPo had catered for empty states, where content had not yet been added or could not yet be found but a blank state would look rough and unprofessional.  Additionally, I tested a few user expectations and claims in the Help & Contact section. 
+My goal was to follow the 80/20 rule, with 80% of the test scenarios covering failure cases, and 20% covering success cases. I started with the happy path, then wrote negative tests. To find these cases first I explored boundary/range testing, and null testing. Many of my E2E tests would end up having multiple asserts which violates the Single Responsibility Principle. In these cases, elements of these tests are run as unit or integration tests. Of course, there are also edge cases, where a non-typical customer will enter data that should be accepted, but often isn’t. These assumptions about users, through testing mostly the happy path of user experience, can negatively impact UX, usability, and accessibility. As well as these edge cases, I also explored whether ShowPo had catered for empty states, where content had not yet been added or could not yet be found but a blank state would look rough and unprofessional. Additionally, I tested a few user expectations and claims in the Help & Contact section. 
 
 Generally, only custom code added on-top of framework generated code needs testing, except in the cases where the core behaviour is changed. 
 
@@ -24,12 +24,12 @@ I have used a variety of Arrange Act Assert TDD syntax and Gherkin BDD syntax to
 ## Test Strategy
 
 ## Test level
+- Unit tests
 - Integration tests
-
+- E2E tests
 
 ## Environment requirements
 Linux Ubuntu 16.04 or Mac OS Catalina
-
 
 ## Scope
 ### Functional testing
@@ -85,10 +85,10 @@ Admin actions
 - Defects reports
 
 ## Testing Tools
-- Tools are chosen for each task to keep tests easier to maintain, and easier to write. Ad-hoc and exploratory testing would happen during the development phase. To view the test automation framework please see the appendix.
+Tools are chosen for each task to keep tests easier to maintain, and easier to write. Ad-hoc and exploratory testing would happen during the development phase. To view the test automation framework please see the appendix.
 
 As a fast moving company that does replatform every 2 to 3 years as they grow, automating testing where sensible enables them to move faster, while keeping a firm check on stability. Tests that are simpler and take a shorter amount of time to write are preferred, as with all elements of the testing process.
-- Manual for some functional tests and mobile responsiveness tests
+
 - Selenium for most functional tests
 - Applitools & BrowserStack for visual testing and cross browser testing
 - Axe for automated tested, and Pa11y-dashboard for first-pass accessibility auditing
