@@ -1,5 +1,5 @@
 # Executive summary: 
-ShowPo is a fast-moving midsize fashion eCommerce company which has been replatforming every 2 to 3 years as their business grows. To monitor and manage the stability of their website, they create a regression test suite at each replatforming. In this article, I outline a good cross-section of what I think would be in their functionality and reliability test suites, and dip my toes into the other elements of testing.
+ShowPo is a fast-moving midsize fashion eCommerce company which has been replatforming every 2 to 3 years as their business grows. To monitor and manage the stability of their website, they create a regression test suite at each replatforming. In the attached document, I outline a good cross-section of what I think would be in their functionality and reliability test suites, and dip my toes into the other elements of testing.
 
 This piece is not a complete set of the tests that would be included in their regression test suite. I don’t cover all negative test cases, and I have only included customer-facing functions. However, I hope to provide a good cross-section which demonstrates to you how I think as a tester. While automated tests don’t test everything, the aim of a good regression test suite is to give confidence that the program works as it should.
 
