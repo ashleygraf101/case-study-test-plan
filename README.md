@@ -89,7 +89,7 @@ Tools are chosen for each task to keep tests easier to maintain, and easier to w
 
 As a fast moving company that does replatform every 2 to 3 years as they grow, automating testing where sensible enables them to move faster, while keeping a firm check on stability. Tests that are simpler and take a shorter amount of time to write are preferred, as with all elements of the testing process.
 
-- Junit for most functional tests
+- Junit for unit tests
 - Selenium for e2e tests, using the Page Object Model
 - Applitools & BrowserStack for visual testing and cross browser testing
 - Axe for automated tested, and Pa11y-dashboard for first-pass accessibility auditing
