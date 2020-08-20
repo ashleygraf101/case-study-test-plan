@@ -69,9 +69,9 @@ Admin actions
 - Test data to check the assumptions of the tests has been added into the test environment. 
 - The tests are tagged by feature areas so they can be run separately during development. 
 - Unit tests are added to the CI/CD pipeline. 
-- Smoke tests are run for each release candidate. 
-- Regression tests are run daily, overnight if necessary. 
-- Tests are run in parallel in parallel
+- Smoke tests are run for each commit. 
+- Regression tests are for each release candidate.
+- Tests are run in parallel
 
 ## Defect Management
 1. Issues are discovered by testers and developers. 
