@@ -18,10 +18,12 @@ My goal was to follow the 80/20 rule, with 80% of the test scenarios covering fa
 
 Generally, only custom code added on-top of framework generated code needs testing, except in the cases where the core behaviour is changed, and I aim for the test cases i have written to reflect that.
 
-BDD is a good fit for ShowPo, because it creates readable tests that all stakeholders can understand. However, I have used plain english to for most of 'how to test' below. BDD is generally written before the code, and it is used to reduce confusion - important to reduce the overhead of constant calls and messages when we will all be working remotely for the next few years. 
+Having BDD feature files is a good fit for ShowPo. It creates readable test-like documents that all stakeholders can understand. However, I have used plain english to for most of 'how to test' below. BDD is generally written before the code, and it is used to reduce confusion - important to reduce the overhead of constant calls and messages when we will all be working remotely for the next few years. 
 
 
 ## Test Strategy
+
+I used a risk-based testing strategy, keeping in mind ShowPo's rapid deadlines. Higher-priority risks to add automated tests for first are at the start, lower-priority tests towards the end. 
 
 ## Test level
 - Unit tests
