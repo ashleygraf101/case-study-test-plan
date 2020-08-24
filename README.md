@@ -3,6 +3,11 @@ ShowPo is a fast-moving midsize fashion eCommerce company which has been replatf
 
 This piece is not a complete set of the tests that would be included in their regression test suite. I don’t cover all negative test cases, and I have only included customer-facing functions. However, I hope to provide a good cross-section which demonstrates to you how I think as a tester. While automated tests don’t test everything, the aim of a good regression test suite is to give confidence that the program works as it should.
 
+# Dev.to article
+
+<a href="https://dev.to/ashleygraf101/risk-based-testing-showpo-risk-ecommerce-p1g">Risk-Based Testing ShowPo - Product Risk Patterns in eCommerce"></>
+
+
 # Introduction
 
 I’ve been following ShowPo since 2011. Showpo is a local Sydney company which has grown to become one of Australia’s leading fashion companies and eCommerce properties. To me, they look like the perfect case study to use as an example of how I can apply my software testing skills to any eCommerce product. I used recent articles and BuiltWith to gain an understanding of their technology stack, and help me decide which tools might be the most appropriate for them to use.  I am making the assumption that ShowPo uses the agile approach to software development, based on interviews given by the founder. In writing up this case study, I opted not to talk to anyone at ShowPo. It is based purely on my experience of their site and of eCommerce itself. In a previous life, I worked as an eCommerce coordinator where I first developed skills in user acceptance testing, exploratory testing, and ad-hoc testing. As part of my self-study for my testing career I am learning the other forms of testing and how to apply them. I do a general overview of some of them here. 
