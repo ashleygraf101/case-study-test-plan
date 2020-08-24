@@ -5,7 +5,7 @@ This piece is not a complete set of the tests that would be included in their re
 
 # Dev.to article
 
-<a href="https://dev.to/ashleygraf101/risk-based-testing-showpo-risk-ecommerce-p1g">Risk-Based Testing ShowPo - Product Risk Patterns in eCommerce"></>
+<a href="https://dev.to/ashleygraf101/risk-based-testing-showpo-risk-ecommerce-p1g">Risk-Based Testing ShowPo - Product Risk Patterns in eCommerce</a>
 
 
 # Introduction
